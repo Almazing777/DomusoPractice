@@ -1,13 +1,18 @@
-import org.junit.Test;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-public class HomePage extends BaseTest{
+import java.util.concurrent.TimeUnit;
+
+public class HomePage {
+
+    public WebDriver driver;
 
     @Test
     public void setUp(){
-        Webdriver driver = new ChromeDriver();
+        driver = new ChromeDriver();
         driver.get("https://www.domuso.com/");
-        driver.manage.timeouts.implicitlywait(5, Seconds)
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
 }
