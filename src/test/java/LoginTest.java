@@ -19,13 +19,24 @@ public class LoginTest extends BaseTest {
         driver.findElement(By.cssSelector("[id='password']")).sendKeys("qwerty123");
         driver.findElement(By.xpath("//input[@type='submit']")).click();
 
-        String actual_error = driver.findElement(By.xpath(".//*[@class='message']")).getText();
-        String expected_error = "Sorry, we were not able to find a user with that username and password.";
-        Assert.assertEquals(actual_error, expected_error);
+        String actualError = driver.findElement(By.xpath(".//*[@class='message']")).getText();
+        String expectedError = "Sorry, we were not able to find a user with that username and password.";
+        Assert.assertEquals(actualError, expectedError);
     }
 
     @Test
     public void emptyCredentials(){
+        driver.findElement(By.xpath("//a[contains(text(),'My Account')]")).click();
+
+        WebElement submitButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='submit']")));
+        submitButton.click();
+        String loginError = driver.findElement(By.cssSelector("[id='username-error']")).getText();
+        String loginExpectedError = "Login required";
+        Assert.assertEquals(loginError, loginExpectedError);
+
+        String passwordError = driver.findElement(By.cssSelector("[id='password-error']")).getText();
+        String pwExpectedError = "Password required";
+        Assert.assertEquals(passwordError, pwExpectedError);
 
     }
 }
