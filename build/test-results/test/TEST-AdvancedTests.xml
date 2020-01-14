@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AdvancedTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-14T17:52:20" hostname="Almass-MacBook-Pro.local" time="0.56">
+  <properties/>
+  <testcase name="mouseHover" classname="AdvancedTests" time="0.56"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 7864
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1579024338.316][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Jan 14, 2020 9:52:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

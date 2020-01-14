@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c07c1a9-7db5-4072-8eef-567d426b3518" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AdvancedTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -10,14 +11,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/LoginTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/LoginTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/LoginTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-LoginTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNG.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +68,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LoginTest.emptyCredentials">
-    <configuration name="HomePage.UITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AdvancedTests.mouseHover">
+    <configuration name="AdvancedTests.mouseHover" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;HomePage.UITest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;AdvancedTests.mouseHover&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -87,12 +89,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HomePage.navBarTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HomePage.UITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;HomePage.navBarTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;HomePage.UITest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -169,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AdvancedTests.mouseHover" />
         <item itemvalue="Gradle.LoginTest.emptyCredentials" />
         <item itemvalue="Gradle.LoginTest.wrongCredentials" />
         <item itemvalue="Gradle.LoginTest.loginError" />
         <item itemvalue="Gradle.HomePage.UITest" />
-        <item itemvalue="Gradle.HomePage.navBarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -203,28 +205,28 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="832" height="250" key="GridCell.Tab.0.bottom" timestamp="1579022737290">
+    <state width="832" height="250" key="GridCell.Tab.0.bottom" timestamp="1579024336281">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="832" height="250" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1579022737290" />
+    <state width="832" height="250" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1579024336281" />
     <state width="827" height="250" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1578980276852" />
     <state width="827" height="250" key="GridCell.Tab.0.bottom/0.23.1680.980@0.23.1680.980" timestamp="1578980220902" />
-    <state width="832" height="250" key="GridCell.Tab.0.center" timestamp="1579022737289">
+    <state width="832" height="250" key="GridCell.Tab.0.center" timestamp="1579024336280">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="832" height="250" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1579022737289" />
+    <state width="832" height="250" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1579024336280" />
     <state width="827" height="250" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1578980276852" />
     <state width="827" height="250" key="GridCell.Tab.0.center/0.23.1680.980@0.23.1680.980" timestamp="1578980220902" />
-    <state width="832" height="250" key="GridCell.Tab.0.left" timestamp="1579022737288">
+    <state width="832" height="250" key="GridCell.Tab.0.left" timestamp="1579024336280">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="832" height="250" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1579022737288" />
+    <state width="832" height="250" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1579024336280" />
     <state width="827" height="250" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1578980276851" />
     <state width="827" height="250" key="GridCell.Tab.0.left/0.23.1680.980@0.23.1680.980" timestamp="1578980220902" />
-    <state width="832" height="250" key="GridCell.Tab.0.right" timestamp="1579022737289">
+    <state width="832" height="250" key="GridCell.Tab.0.right" timestamp="1579024336281">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="832" height="250" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1579022737289" />
+    <state width="832" height="250" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1579024336281" />
     <state width="827" height="250" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1578980276852" />
     <state width="827" height="250" key="GridCell.Tab.0.right/0.23.1680.980@0.23.1680.980" timestamp="1578980220902" />
     <state width="1307" height="310" key="GridCell.Tab.1.bottom" timestamp="1578983701216">
