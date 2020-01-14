@@ -8,7 +8,8 @@
     <test name="Domuso - Functionality" preserve-order="true">
         <classes>
             <class name="BaseTest"/>
-            <class name="HomePage"/>
+            <class name="HomePageTests"/>
+            <class name="LoginTest"/>
         </classes>
     </test>
 
